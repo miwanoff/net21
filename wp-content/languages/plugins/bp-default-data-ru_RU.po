@@ -1,0 +1,146 @@
+# Translation of Plugins - BuddyPress Default Data - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - BuddyPress Default Data - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-09-25 14:45:11+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - BuddyPress Default Data - Stable (latest release)\n"
+
+#: bp-default-data.php:292
+msgid "Profile data (profile groups and fields with values, won't generate activity records)"
+msgstr "Данные профиля (наборы полей с их значениями, активность на сайте не будет сгенерирована)"
+
+#: bp-default-data.php:114
+msgid "Everything created by this plugin was successfully deleted."
+msgstr "Все, сгенерированные этим плагином, было успешно удалено."
+
+#. Description of the plugin
+msgid "Create lots of users, groups, activity items, messages, profile data - useful for BuddyPress testing purpose."
+msgstr "Создавайте много пользователей, групп, записей в ленте активности, сообщений, данных профиля - все это полезно для тестирования BuddyPress."
+
+#: bp-default-data.php:361
+msgid "Forum topics and posts"
+msgstr "Записи и темы форума"
+
+#: bp-default-data.php:342
+msgid "Members"
+msgstr "Пользователи"
+
+#: bp-default-data.php:335
+msgid "Groups"
+msgstr "Группы"
+
+#: bp-default-data.php:322
+msgid "Private messages"
+msgstr "Личные сообщения"
+
+#: bp-default-data.php:312 bp-default-data.php:351
+msgid "Activity posts"
+msgstr "Записи активности"
+
+#: bp-default-data.php:302
+msgid "Friends connections"
+msgstr "Друзья"
+
+#: bp-default-data.php:281
+msgid "Users"
+msgstr "Пользователи"
+
+#: bp-default-data.php:275
+msgid "What do you want to import?"
+msgstr "Что вы хотите импортировать?"
+
+#: bp-default-data.php:273
+msgid "Please do not mess importing users and their data with groups on a slow server (or shared hosting). Importing is rather heavy process, so please finish with members first and then work with groups."
+msgstr "Пожалуйста, не делайте импорт пользователей и групп на слабом сервере. Это может повесить вам сайт, так как это достаточно тяжеловесный процесс. Делайте по очереди - сначала пользователей, а потом группы."
+
+#: bp-default-data.php:247
+msgid "Are you sure you want to delete all *imported* content - users, groups, messages, activities, forum topics etc? Content, that was created by you and others, and not by this plugin, will not be deleted."
+msgstr "Вы уверены, что хотите удалить все импортированные данные - пользователей, группы, активность, сообщения и т.д.? Данные, которые были созданы вами или другими не имопртированными пользователями, не будут удалены."
+
+#: bp-default-data.php:57
+msgid "Import Data"
+msgstr "Импортировать"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://ovirium.com"
+msgstr "https://ovirium.com"
+
+#. Author of the plugin
+msgid "slaFFik"
+msgstr "slaFFik"
+
+#: bp-default-data.php:283
+msgid "- all imported users have the same password: <code>1234567890</code>"
+msgstr "- у всех импортированных пользователей один и тот же пароль: <code>1234567890</code>"
+
+#: bp-default-data.php:388
+msgid "Clear BuddyPress Data"
+msgstr "Очистить все BuddyPress данные"
+
+#: bp-default-data.php:386
+msgid "Import Selected Data"
+msgstr "Импортировать выбранные данные"
+
+#: bp-default-data.php:369
+msgid "<strong>Note:</strong> You can't import anything forums-related, because Forum Component is not installed correctly. Please recheck your settings."
+msgstr "<strong>Внимание:</strong> Вы не можете импортировать ничего, связанного с форумом, потому что этот компонент установлен неверно. Пожалуйста, проверьте свои BuddyPress настройки."
+
+#: bp-default-data.php:209
+msgid "Data was successfully imported"
+msgstr "Данные были успешно импортированы"
+
+#. translators: formatted number.
+#: bp-default-data.php:199
+msgid "%s groups activity items"
+msgstr "%s записей активности групп"
+
+#. translators: formatted number.
+#: bp-default-data.php:184
+msgid "%s groups members (1 user can be in several groups)"
+msgstr "%s участников групп (1 пользователь может быть в нескольких группах)"
+
+#. translators: formatted number.
+#: bp-default-data.php:176
+msgid "%s new groups"
+msgstr "%s новых групп"
+
+#. translators: formatted number.
+#: bp-default-data.php:166
+msgid "%s personal activity items"
+msgstr "%s личных записей в ленте активности"
+
+#. translators: formatted number.
+#: bp-default-data.php:157
+msgid "%s private messages"
+msgstr "%s личных сообщений"
+
+#. translators: formatted number.
+#: bp-default-data.php:148
+msgid "%s friends connections"
+msgstr "%s контактов дружбы"
+
+#. translators: formatted number.
+#: bp-default-data.php:139
+msgid "%s profile entries"
+msgstr "%s записей в профиле"
+
+#. translators: formatted number.
+#: bp-default-data.php:130
+msgid "%s new users"
+msgstr "%s новых пользователей"
+
+#: bp-default-data.php:73 bp-default-data.php:74
+msgid "BP Default Data"
+msgstr "BP Default Data"
+
+#. Plugin Name of the plugin
+#: bp-default-data.php:109
+msgid "BuddyPress Default Data"
+msgstr "BuddyPress Default Data"

@@ -1,0 +1,175 @@
+/**
+* Theme Name: Emmet Lite
+* Theme URI: https://motopress.com/products/emmet/
+* Author: MotoPress
+* Author URI: https://motopress.com/
+* Description: Clean and responsive WordPress theme with a professional design created for corporate and portfolio websites. Emmet comes packaged with page builder and fully integrated with WordPress Customizer. Theme works perfect with major WordPress plugins like WooCommerce, bbPress, BuddyPress and many others. After installing the theme navigate to Appearance > Theme Wizard.
+* Version: 1.7.5
+* Tested up to: 5.7
+* Requires PHP: 5.6
+* License: GNU General Public License v2 or later
+* License URI: http://www.gnu.org/licenses/gpl-2.0.html
+* Tags: one-column,two-columns,right-sidebar,buddypress,custom-colors,custom-menu,featured-images,full-width-template,post-formats,theme-options,translation-ready,custom-header,custom-background,editor-style,threaded-comments,custom-logo
+* Text Domain: emmet-lite
+* Domain Path: /languages/
+*/
+body.custom-background.pages-background.registration.register .site-main {
+  background-image: url(http://net.kate.rurs.net/wp-content/uploads/2020/07/bg_esa-space-shop.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+.buddypress-wrap .standard-form input,
+.buddypress-wrap .standard-form input[type="text"],
+.buddypress-wrap .standard-form input[type="email"] {
+  border-radius: 15px 15px 15px 15px;
+  border: 1px solid #ddd;
+  background: rgba(251, 251, 251, 1);
+  height: 40px;
+}
+.buddypress-wrap .signup-form label,
+legend {
+  color: rgba(43, 173, 169, 1);
+  font-size: 14px;
+  line-height: 1.5;
+  display: inline-block;
+  margin-bottom: 3px;
+}
+.register-page .signup-form {
+  height: auto;
+  background-color: rgba(226, 239, 240, 1);
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13);
+  padding: 40px;
+}
+h2.bp-heading {
+  color: rgba(39, 179, 153, 1);
+  font-size: 28px;
+}
+body #buddypress input[type="submit"] {
+  border-radius: 15px 15px 15px 15px;
+}
+.buddypress-wrap #pass-strength-result.strong,
+.buddypress-wrap .standard-form .description {
+  background-color: transparent;
+  border-color: transparent;
+  color: rgba(43, 173, 169, 1);
+}
+.buddypress .buddypress-wrap input[type="submit"] {
+  background: #0071a1;
+  border-color: #0071a1;
+  color: #fff;
+}
+.buddypress-wrap .bp-messages.info {
+  display: none;
+}
+.buddypress-wrap .standard-form p.description {
+  color: #fff;
+}
+body.custom-background.pages-background.registration.register .site-main {
+  background-image: url(http://net.kate.rurs.net/wp-content/uploads/2020/07/bg_esa-space-shop.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+.buddypress-wrap .standard-form input,
+.buddypress-wrap .standard-form input[type="text"],
+.buddypress-wrap .standard-form input[type="email"] {
+  border-radius: 15px 15px 15px 15px;
+  border: 1px solid #ddd;
+  background: rgba(251, 251, 251, 1);
+  height: 40px;
+}
+.buddypress-wrap .signup-form label,
+legend {
+  color: rgba(43, 173, 169, 1);
+  font-size: 14px;
+  line-height: 1.5;
+  display: inline-block;
+  margin-bottom: 3px;
+}
+.register-page .signup-form {
+  height: auto;
+  background-color: rgba(226, 239, 240, 1);
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13);
+  padding: 40px;
+}
+h2.bp-heading {
+  color: rgba(39, 179, 153, 1);
+  font-size: 28px;
+}
+body #buddypress input[type="submit"] {
+  border-radius: 15px 15px 15px 15px;
+}
+.buddypress-wrap #pass-strength-result.strong,
+.buddypress-wrap .standard-form .description {
+  background-color: transparent;
+  border-color: transparent;
+  color: rgba(43, 173, 169, 1);
+}
+.buddypress .buddypress-wrap input[type="submit"] {
+  background: #0071a1;
+  border-color: #0071a1;
+  color: #fff;
+}
+.buddypress-wrap .bp-messages.info {
+  display: none;
+}
+.buddypress-wrap .standard-form p.description {
+  color: #fff;
+}
+body.custom-background.pages-background.registration.register .site-main {
+  background-image: url(http://net.kate.rurs.net/wp-content/uploads/2020/07/bg_esa-space-shop.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+.buddypress-wrap .standard-form input,
+.buddypress-wrap .standard-form input[type="text"],
+.buddypress-wrap .standard-form input[type="email"] {
+  border-radius: 15px 15px 15px 15px;
+  border: 1px solid #ddd;
+  background: rgba(251, 251, 251, 1);
+  height: 40px;
+}
+.buddypress-wrap .signup-form label,
+legend {
+  color: rgba(43, 173, 169, 1);
+  font-size: 14px;
+  line-height: 1.5;
+  display: inline-block;
+  margin-bottom: 3px;
+}
+.register-page .signup-form {
+  height: auto;
+  background-color: rgba(226, 239, 240, 1);
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13);
+  padding: 40px;
+}
+h2.bp-heading {
+  color: rgba(39, 179, 153, 1);
+  font-size: 28px;
+}
+body #buddypress input[type="submit"] {
+  border-radius: 15px 15px 15px 15px;
+}
+.buddypress-wrap #pass-strength-result.strong,
+.buddypress-wrap .standard-form .description {
+  background-color: transparent;
+  border-color: transparent;
+  color: rgba(43, 173, 169, 1);
+}
+.buddypress .buddypress-wrap input[type="submit"] {
+  background: #0071a1;
+  border-color: #0071a1;
+  color: #fff;
+}
+.buddypress-wrap .bp-messages.info {
+  display: none;
+}
+.buddypress-wrap .standard-form p.description {
+  color: #666;
+}
+.register-page .signup-form #submit:disabled {
+  color: #faf4f4;
+  opacity: 0.4;
+}
