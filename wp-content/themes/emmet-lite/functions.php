@@ -24,7 +24,14 @@ function my_forcelogin_bypass($bypass)
     if (is_page('register')) {
         $bypass = true;
     }
-    return $bypass;
 
+    // Get visited URL without last part
+    $url_path = dirname($_SERVER['REQUEST_URI']);
+
+    // Allow URL
+    if ('/aktivacziya-uchetnoj-zapisi' === $url_path) {
+        $bypass = true;
+    }
+    return $bypass;
 }
 add_filter('v_forcelogin_bypass', 'my_forcelogin_bypass');
